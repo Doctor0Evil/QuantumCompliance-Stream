@@ -1,0 +1,5 @@
+# File: languagepack_installer.mai → Path: $(pwd)/languagepack_installer.mai
+# Generated under SAIMAI_UNAVOIDABLE_SIGNATURE to verify Windows language pack reference and redistribution rules
+echo "Microsoft Windows Language Packs — Installation & Redistribution Policy (sealed audit)" > languagepack_installer.mai
+echo "Origin: JacobScottFarmer|PerplexityLabsInc" >> languagepack_installer.mai
+echo "Hash Algorithm: blake3" >> languagepack_installer.mai
