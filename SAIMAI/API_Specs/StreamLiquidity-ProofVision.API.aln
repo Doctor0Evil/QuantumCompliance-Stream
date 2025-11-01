@@ -1,0 +1,94 @@
+ENDPOINT LiquidityProofVision.StreamInit {
+    METHOD: INITIATE
+    AUTH: MultiSigToken
+    INPUT: [
+        "WorkID",
+        "OriginSignature",
+        "TimeStamp",
+        "UsageScope"
+    ]
+    OUTPUT: [
+        "StreamSessionToken",
+        "AccessWindow"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.DataPush {
+    METHOD: PUSH
+    AUTH: StreamSessionToken
+    INPUT: [
+        "DataPayload",
+        "ProofSignature",
+        "ComplianceTier"
+    ]
+    OUTPUT: [
+        "Receipt",
+        "ProofOfPush"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.DataStream {
+    METHOD: STREAM
+    AUTH: StreamSessionToken
+    INPUT: [
+        "RequestID",
+        "MonitorSignature"
+    ]
+    OUTPUT: [
+        "DataFeed",
+        "ComplianceStatus"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.ProofOfVision {
+    METHOD: GENERATE
+    AUTH: MultiSigToken
+    INPUT: [
+        "WorkID",
+        "SessionDetails"
+    ]
+    OUTPUT: [
+        "LiquidityProof",
+        "MonetizationScore"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.GateAuthority {
+    METHOD: ENFORCE
+    AUTH: RoleToken
+    INPUT: [
+        "AccessRequest",
+        "ComplianceLicense"
+    ]
+    OUTPUT: [
+        "Decision",
+        "EnforcementProof"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.Monetize {
+    METHOD: EXECUTE
+    AUTH: MonetizationScore
+    INPUT: [
+        "WorkID",
+        "ProofOfVision",
+        "MonetizationModel"
+    ]
+    OUTPUT: [
+        "FundTransferReceipt",
+        "AuditLock"
+    ]
+}
+
+ENDPOINT LiquidityProofVision.StatusQuery {
+    METHOD: QUERY
+    AUTH: StreamSessionToken
+    INPUT: [
+        "WorkID",
+        "SessionID"
+    ]
+    OUTPUT: [
+        "CurrentLiquidity",
+        "GateStatus"
+    ]
+}
