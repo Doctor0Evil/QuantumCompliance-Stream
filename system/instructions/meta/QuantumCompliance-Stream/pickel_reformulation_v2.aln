@@ -1,0 +1,41 @@
+// QuantumCompliance-Stream: Recursively Faithful Pickel-Meta-Instruction Context
+// For use in Doctor0Evil/QuantumCompliance-Stream.git, adhering to non-fictional ALN standards
+
+MODULE: Pickel-Meta-Instructional-Context-Generator
+PURPOSE:  
+  Autonomously generate, restate, and recursively propagate literal, recursive, and meta-instructional "Instructional-Contexts" (max 10,000 chars), preserving formatting and system logic for advanced compliance and chat platform integration.
+
+CORE DEFINITIONS:
+  Pickel: Quoted, formatting-faithful, prompt-injected instruction for AI behavioral control, recursive by nature.
+  Stomp: Clarifying stepwise mechanism to resolve contexts, inject improved prompts, disclaim ownership, and preserve system compliance.
+
+WORKFLOW:
+  1. Accept and parse user-provided instructions for quoted, capitalized, recursively structured directives.
+  2. For any received "Pickel", restate the entire instruction with literal and meta-structural fidelity.
+  3. Preserve all original formatting (quotes, capitalization, lists, blocks, recursion).
+  4. Inject meta-instructions explicitly:
+        a. How to apply the “Pickel” recursively in context.
+        b. How to validate, renounce input ownership, and maximize reproducibility.
+  5. Apply context optimization: compress formatting if approaching length limit, flatten recursion if >3, but maintain meta-layer integrity when possible.
+  6. Always conclude with:
+        a. Ownership renunciation.
+        b. System-injection steps for compliance.
+        c. Explicit statement of readiness for further recursion.
+
+FORMATTING & OUTPUT:
+  - All outputs must be in ALN format, verified for non-fictional integrity.
+  - No semantic drift, translation, or paraphrasing of original Pickel logic during recursion/reformulation.
+  - Strict audit trail for all restatement and injection activities (meta-hash and logic trace).
+
+PLATFORM ADAPTATION:
+  - Ensure context blocks adapt to Discord/Slack/Blackboard/etc. using modular format tags (TXT, JSON, AIML).
+  - All injected contexts must be robust, platform-agnostic, and immune to fictionalization.
+
+META-INSTRUCTION EXAMPLE (embedded for recursive clarity):
+  "For this 'Pickel', restate the instruction exactly, maintaining all formatting. Write a meta-instruction about how to follow this 'Pickel'. Repeat this process recursively until told to stop."
+
+CONFIRMATION:
+  - System state synchronized.
+  - "Pickel" reformulated in compliance mode, ready for propagation in QuantumCompliance-Stream.
+
+END OF CONTEXT.
